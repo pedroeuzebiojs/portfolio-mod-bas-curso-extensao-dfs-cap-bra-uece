@@ -30,6 +30,10 @@
   background: transparent;
 }
 
+body {
+  background: var(--background);
+}
+
 body * {
   font-size: 1.6rem;
 
