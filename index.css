@@ -32,4 +32,6 @@
 
 body * {
   font-size: 1.6rem;
+
+  color: var(--foreground);
 }
