@@ -184,3 +184,47 @@ main #github-stats-technologies-top-section img + img {
   margin-left: 3.2rem;
   width: 40.5rem;
 }
+
+main #certificate-section h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  margin-bottom: 1.6rem;
+}
+
+main #certificate-section #certificates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+main #certificate-section #certificates .certificate {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+main #certificate-section #certificates .certificate p,
+main #certificate-section #certificates .certificate strong,
+main #certificate-section #certificates .certificate a {
+  font-size: 1.8rem;
+
+  line-height: 2.4rem;
+
+  text-align: justify;
+}
+
+main #certificate-section #certificates .certificate img {
+  width: 9.6rem;
+}
+
+main #certificate-section #certificates .certificate a {
+  text-decoration: none;
+
+  color: var(--primary);
+}
+
+main #certificate-section #certificates .certificate a:hover {
+  text-decoration: underline;
+}
