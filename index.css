@@ -112,3 +112,36 @@ main #experience-section #experiences .experience strong {
 main #experience-section #experiences .experience img {
   width: 9.6rem;
 }
+
+main #education-section h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  margin-bottom: 1.6rem;
+}
+
+main #education-section #educations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+main #education-section #educations .education {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+main #education-section #educations .education p,
+main #education-section #educations .education strong {
+  font-size: 1.8rem;
+
+  line-height: 2.4rem;
+
+  text-align: justify;
+}
+
+main #education-section #educations .education img {
+  width: 9.6rem;
+}
