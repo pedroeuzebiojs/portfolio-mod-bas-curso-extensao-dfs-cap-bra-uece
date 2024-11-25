@@ -48,8 +48,16 @@ body * {
   padding: 5.6rem 3rem 0;
 }
 
+header {
+  padding: 2.4rem 0;
+}
+
 header img {
   width: 19.2rem;
+}
+
+main {
+  padding: 2.4rem 0;
 }
 
 main #about-section h2 {
@@ -65,4 +73,37 @@ main #about-section p {
   line-height: 2.4rem;
 
   text-align: justify;
+}
+
+main #experience-section h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  margin-bottom: 1.6rem;
+}
+
+main #experience-section #experiences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+main #experience-section #experiences .experience {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+main #experience-section #experiences .experience p,
+main #experience-section #experiences .experience strong {
+  font-size: 1.8rem;
+
+  line-height: 2.4rem;
+
+  text-align: justify;
+}
+
+main #experience-section #experiences .experience img {
+  width: 9.6rem;
 }
