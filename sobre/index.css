@@ -1,0 +1,24 @@
+main #about-gallery-section h2,
+main #about-gallery-section p {
+  text-align: center;
+}
+
+main #about-gallery-section p {
+  margin-bottom: 2.4rem;
+}
+
+main #about-gallery-section #gallery-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 3.2rem;
+}
+
+main #about-gallery-section #gallery-photos img {
+  width: 30rem;
+  height: 30rem;
+
+  object-fit: cover;
+
+  border-radius: 0.8rem;
+}
