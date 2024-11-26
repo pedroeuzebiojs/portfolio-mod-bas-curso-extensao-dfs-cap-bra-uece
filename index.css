@@ -104,7 +104,7 @@ main #course-section h2,
 main #language-section h2,
 main #social-media-section h2,
 main #github-stats-technologies-top-section h2,
-main #about-gallery-section h2 {
+main #gallery-photos-section h2 {
   font-size: 3.2rem;
   font-weight: 600;
 
@@ -140,7 +140,7 @@ main #certificate-section #certificates .certificate a,
 main #course-section #courses .course p,
 main #course-section #courses .course strong,
 main #language-section #languages .language p,
-main #about-gallery-section p {
+main #gallery-photos-section p {
   font-size: 1.8rem;
 
   line-height: 2.4rem;
