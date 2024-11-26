@@ -228,3 +228,29 @@ main #certificate-section #certificates .certificate a {
 main #certificate-section #certificates .certificate a:hover {
   text-decoration: underline;
 }
+
+main #course-section h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  margin-bottom: 1.6rem;
+}
+
+main #course-section #courses .course {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+main #course-section #courses .course p,
+main #course-section #courses .course strong {
+  font-size: 1.8rem;
+
+  line-height: 2.4rem;
+
+  text-align: justify;
+}
+
+main #course-section #courses .course img {
+  width: 9.6rem;
+}
