@@ -12,6 +12,8 @@ main #gallery-photos-section #gallery-photos {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   gap: 3.2rem;
+  justify-items: center;
+  align-items: center;
 }
 
 main #gallery-photos-section #gallery-photos img {
@@ -21,4 +23,11 @@ main #gallery-photos-section #gallery-photos img {
   object-fit: cover;
 
   border-radius: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  main #gallery-photos-section #gallery-photos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(24, 1fr);
+  }
 }
