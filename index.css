@@ -306,3 +306,14 @@ main #social-media-section #social-medias a {
 
   padding: 1.2rem;
 }
+
+footer {
+  padding: 3rem 0 5.6rem;
+}
+
+footer p {
+  text-align: center;
+
+  font-size: 1.4rem;
+  font-weight: 300;
+}
