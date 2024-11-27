@@ -1,0 +1,81 @@
+form {
+  background: var(--secondary);
+
+  padding: 2.4rem;
+
+  border-radius: 0.8rem;
+  border: 1px solid var(--primary-secondary);
+}
+
+form fieldset {
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+form fieldset legend {
+  display: none;
+}
+
+form fieldset #input-name-tel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+
+form fieldset .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  flex: 1;
+}
+
+form fieldset .input-wrapper label {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+form fieldset .input-wrapper input,
+form fieldset .input-wrapper textarea {
+  padding: 1.2rem;
+
+  border: 1px solid var(--primary-secondary);
+  border-radius: 0.8rem;
+
+  background: var(--foreground);
+
+  outline: none;
+
+  color: var(--background);
+}
+
+form fieldset .input-wrapper input:focus,
+form fieldset .input-wrapper textarea:focus {
+  background: var(--muted-foreground);
+}
+
+form fieldset .input-wrapper input::placeholder,
+form fieldset .input-wrapper textarea::placeholder {
+  color: var(--background);
+}
+
+form fieldset button {
+  border: 1px solid var(--primary-secondary);
+  border-radius: 0.8rem;
+
+  background-color: var(--primary);
+
+  padding: 1.2rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  color: var(--foreground);
+
+  cursor: pointer;
+}

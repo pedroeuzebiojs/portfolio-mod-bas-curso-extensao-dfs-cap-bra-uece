@@ -33,7 +33,7 @@
 
     <title>
       Projeto de Portfólio do Módulo Básico do Curso de Extensão em
-      Desenvolvimento Full Stack do Capacita Brasil - UECE | Galeria
+      Desenvolvimento Full Stack do Capacita Brasil - UECE | Contato
     </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,53 +59,79 @@
         <nav>
           <ul>
             <li><a href="../index.html">Início</a></li>
-            <li><a href="./index.html">Galeria</a></li>
+            <li><a href="../galeria/index.html">Galeria</a></li>
             <li><a href="#">Tecnologias</a></li>
-            <li><a href="../contato/index.html">Contato</a></li>
+            <li><a href="./index.html">Contato</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
-        <section id="gallery-photos-section">
-          <h2>Galeria de fotos</h2>
+        <section id="contact-section">
+          <h2>Contate-me</h2>
 
           <p>
-            Essa é uma galeria de fotos que representa sobre o meu estilo
-            pessoal, acadêmico e profissional.
+            Use o formulário abaixo para me enviar uma mensagem com assunto
+            específico.
           </p>
 
-          <div id="gallery-photos">
-            <img src="../assets/imagem-01.png" alt="" />
-            <img src="../assets/imagem-02.png" alt="" />
-            <img src="../assets/imagem-03.png" alt="" />
-            <img src="../assets/imagem-04.png" alt="" />
+          <form>
+            <fieldset>
+              <legend>Formulário</legend>
 
-            <img src="../assets/imagem-05.png" alt="" />
-            <img src="../assets/imagem-06.png" alt="" />
-            <img src="../assets/imagem-07.png" alt="" />
-            <img src="../assets/imagem-08.png" alt="" />
+              <div id="input-name-tel-wrapper">
+                <div class="input-wrapper">
+                  <label for="name">Nome: </label>
 
-            <img src="../assets/imagem-09.png" alt="" />
-            <img src="../assets/imagem-10.png" alt="" />
-            <img src="../assets/imagem-11.png" alt="" />
-            <img src="../assets/imagem-12.png" alt="" />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Digite seu nome"
+                    required
+                  />
+                </div>
 
-            <img src="../assets/imagem-13.png" alt="" />
-            <img src="../assets/imagem-14.png" alt="" />
-            <img src="../assets/imagem-15.png" alt="" />
-            <img src="../assets/imagem-16.png" alt="" />
+                <div class="input-wrapper">
+                  <label for="">Telefone: </label>
 
-            <img src="../assets/imagem-17.png" alt="" />
-            <img src="../assets/imagem-18.png" alt="" />
-            <img src="../assets/imagem-19.png" alt="" />
-            <img src="../assets/imagem-20.png" alt="" />
+                  <input
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    placeholder="Digite seu telefone"
+                    required
+                  />
+                </div>
+              </div>
 
-            <img src="../assets/imagem-21.png" alt="" />
-            <img src="../assets/imagem-22.png" alt="" />
-            <img src="../assets/imagem-23.png" alt="" />
-            <img src="../assets/imagem-24.png" alt="" />
-          </div>
+              <div class="input-wrapper">
+                <label for="email">E-mail: </label>
+
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="topic">Assunto: </label>
+
+                <textarea
+                  name="topic"
+                  id="topic"
+                  cols="30"
+                  rows="10"
+                  placeholder="Digite o assunto"
+                ></textarea>
+              </div>
+
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
         </section>
       </main>
 

@@ -104,7 +104,8 @@ main #course-section h2,
 main #language-section h2,
 main #social-media-section h2,
 main #github-stats-technologies-top-section h2,
-main #gallery-photos-section h2 {
+main #gallery-photos-section h2,
+main #contact-section h2 {
   font-size: 3.2rem;
   font-weight: 600;
 
@@ -140,7 +141,8 @@ main #certificate-section #certificates .certificate a,
 main #course-section #courses .course p,
 main #course-section #courses .course strong,
 main #language-section #languages .language p,
-main #gallery-photos-section p {
+main #gallery-photos-section p,
+main #contact-section p {
   font-size: 1.8rem;
 
   line-height: 2.4rem;
@@ -225,6 +227,18 @@ main #social-media-section #social-medias a {
   padding: 1.2rem;
 }
 
+main #gallery-photos-section h2,
+main #gallery-photos-section p,
+main #contact-section h2,
+main #contact-section p {
+  text-align: center;
+}
+
+main #gallery-photos-section p,
+main #contact-section p {
+  margin-bottom: 2.4rem;
+}
+
 footer {
   padding: 2.4rem 0 5.6rem;
 }
@@ -264,7 +278,9 @@ footer p {
   main #course-section h2,
   main #language-section h2,
   main #social-media-section h2,
-  main #github-stats-technologies-top-section h2 {
+  main #github-stats-technologies-top-section h2,
+  main #gallery-photos-section h2,
+  main #contact-section h2 {
     font-size: 2.4rem;
   }
 
@@ -277,7 +293,9 @@ footer p {
   main #certificate-section #certificates .certificate a,
   main #course-section #courses .course p,
   main #course-section #courses .course strong,
-  main #language-section #languages .language p {
+  main #language-section #languages .language p,
+  main #gallery-photos-section p,
+  main #contact-section p {
     font-size: 1.6rem;
   }
 
