@@ -58,6 +58,10 @@ form fieldset .input-wrapper textarea {
   color: var(--background);
 }
 
+form fieldset .input-wrapper textarea {
+  resize: none;
+}
+
 form fieldset .input-wrapper input:focus,
 form fieldset .input-wrapper textarea:focus {
   background: var(--muted-foreground);
