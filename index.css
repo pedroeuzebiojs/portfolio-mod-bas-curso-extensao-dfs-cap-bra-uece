@@ -105,7 +105,8 @@ main #language-section h2,
 main #social-media-section h2,
 main #github-stats-technologies-top-section h2,
 main #gallery-photos-section h2,
-main #contact-section h2 {
+main #contact-section h2,
+main #technologies-section h2 {
   font-size: 3.2rem;
   font-weight: 600;
 
@@ -115,7 +116,8 @@ main #contact-section h2 {
 main #experience-section #experiences,
 main #education-section #educations,
 main #certificate-section #certificates,
-main #language-section #languages {
+main #language-section #languages,
+main #technologies-section #technologies {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,7 +144,8 @@ main #course-section #courses .course p,
 main #course-section #courses .course strong,
 main #language-section #languages .language p,
 main #gallery-photos-section p,
-main #contact-section p {
+main #contact-section p,
+main #technologies-section p {
   font-size: 1.8rem;
 
   line-height: 2.4rem;
@@ -230,12 +233,15 @@ main #social-media-section #social-medias a {
 main #gallery-photos-section h2,
 main #gallery-photos-section p,
 main #contact-section h2,
-main #contact-section p {
+main #contact-section p,
+main #technologies-section h2,
+main #technologies-section p {
   text-align: center;
 }
 
 main #gallery-photos-section p,
-main #contact-section p {
+main #contact-section p,
+main #technologies-section > p {
   margin-bottom: 2.4rem;
 }
 
@@ -280,7 +286,8 @@ footer p {
   main #social-media-section h2,
   main #github-stats-technologies-top-section h2,
   main #gallery-photos-section h2,
-  main #contact-section h2 {
+  main #contact-section h2,
+  main #technologies-section h2 {
     font-size: 2.4rem;
   }
 
@@ -295,7 +302,8 @@ footer p {
   main #course-section #courses .course strong,
   main #language-section #languages .language p,
   main #gallery-photos-section p,
-  main #contact-section p {
+  main #contact-section p,
+  main #technologies-section p {
     font-size: 1.6rem;
   }
 

@@ -33,7 +33,7 @@
 
     <title>
       Projeto de Portfólio do Módulo Básico do Curso de Extensão em
-      Desenvolvimento Full Stack do Capacita Brasil - UECE | Contato
+      Desenvolvimento Full Stack do Capacita Brasil - UECE | Galeria
     </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -62,78 +62,75 @@
           <ul>
             <li><a href="../index.html">Início</a></li>
             <li><a href="../galeria/index.html">Galeria</a></li>
-            <li><a href="../tecnologias/index.html">Tecnologias</a></li>
-            <li><a href="./index.html">Contato</a></li>
+            <li><a href="./index.html">Tecnologias</a></li>
+            <li><a href="../contato/index.html">Contato</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
-        <section id="contact-section">
-          <h2>Contate-me</h2>
+        <section id="technologies-section">
+          <h2>Tecnologias</h2>
 
           <p>
-            Use o formulário abaixo para me enviar uma mensagem com assunto
-            específico.
+            Abaixo você encontrá algumas das primeiras tecnologias nas quais eu
+            comecei estudando.
           </p>
 
-          <form>
-            <fieldset>
-              <legend>Formulário</legend>
+          <div id="technologies">
+            <div class="technology">
+              <h3>HTML</h3>
 
-              <div id="input-name-tel-wrapper">
-                <div class="input-wrapper">
-                  <label for="name">Nome: </label>
+              <p>
+                HTML é um acrônimo para Hypertext (hipertexto) Markup (marcação)
+                Language (linguagem), ela não é uma linguagem de programação em
+                si, porém é uma linguagem na forma de escrever, tendo sintaxe e
+                semântica, Hypertext é uma marcação especifica que nos leva a
+                outro texto, isso mais no passado, agora sendo relacionado a
+                imagens, a videos. Bastante simples usar o HTML, podemos ver ele
+                clicando com o botão direito na pagina e selecionar a opção
+                "Inspecionar".
+              </p>
 
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Digite seu nome"
-                    required
-                  />
-                </div>
+              <p>Exemplo de um documento HTML:</p>
 
-                <div class="input-wrapper">
-                  <label for="">Telefone: </label>
+              <img src="../assets/exemplo-html.png" alt="" />
+            </div>
 
-                  <input
-                    type="tel"
-                    name="tel"
-                    id="tel"
-                    placeholder="Digite seu telefone"
-                    required
-                  />
-                </div>
-              </div>
+            <div class="technology">
+              <h3>CSS</h3>
 
-              <div class="input-wrapper">
-                <label for="email">E-mail: </label>
+              <p>
+                CSS é um acrônimo para Cascading Style Sheet, uma forma de
+                escrever uma folha de estilos em cascata. O CSS é um código para
+                criar estilos no HTML, que como vimos, é a estrutura de todo o
+                documento, já o CSS seria a beleza, a parte bonita. CSS não é
+                uma linguagem de programação, é uma linguagem style sheet, pois
+                mesmo não sendo de programação, ainda possui uma ideia de
+                sintaxe, e assim, precisamos aprender a forma correta de se
+                escrever.
+              </p>
 
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Digite seu e-mail"
-                  required
-                />
-              </div>
+              <p>Exemplo de CSS:</p>
 
-              <div class="input-wrapper">
-                <label for="topic">Assunto: </label>
+              <img src="../assets/exemplo-css.png" alt="" />
+            </div>
 
-                <textarea
-                  name="topic"
-                  id="topic"
-                  cols="30"
-                  rows="10"
-                  placeholder="Digite o assunto"
-                ></textarea>
-              </div>
+            <div class="technology">
+              <h3>JavaScript</h3>
 
-              <button type="submit">Enviar</button>
-            </fieldset>
-          </form>
+              <p>
+                JavaScript é uma linguagem de programação que roda no navegador
+                do usuário, e pode rodar no computador com algumas aplicações.
+                Com o JavaScript podemos criar aplicações web, mobile com React
+                Native, e desktop com Electron.
+              </p>
+
+              <p>Exemplo de um código JavaScript:</p>
+
+              <img src="../assets/exemplo-js.png" alt="" />
+            </div>
+          </div>
         </section>
       </main>
 

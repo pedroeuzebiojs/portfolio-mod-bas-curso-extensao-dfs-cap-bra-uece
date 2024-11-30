@@ -1,0 +1,23 @@
+main #technologies-section #technologies .technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  max-width: 108rem;
+  margin: auto;
+}
+
+main #technologies-section #technologies .technology h3 {
+  font-size: 2.4rem;
+}
+
+main #technologies-section #technologies .technology p {
+  text-align: center;
+}
+
+main #technologies-section #technologies .technology img {
+  width: 100%;
+  max-width: 58.8rem;
+}
